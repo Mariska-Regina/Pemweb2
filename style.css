@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    display: inline;
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    background-color: #0044ff;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.brand-name {
+    font-size: 1.5rem;
+    margin: .5rem;
+    color: white;
+}
+.navbar-links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-links li {
+    list-style-type: none;
+}
+
+.navbar-links li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 1rem;
+}
+
+.navbar-links li:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    padding: 20px;
+    overflow: auto;
+}
+
+h1, h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.justify {
+    text-align: justify;
+    margin: 0 20px 20px 20px;
+}
+
+.content {
+    padding: 60px 65px;
+}
+
+.profile-sect {
+    display: flex;
+}
+
+.profile-img {
+    max-width: 380px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.head {
+    background-color: #f5f5f5;
+}
+
+th, td {
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+th {
+    padding: 10px;
+    text-align: left;
+    height: 50px;
+}
+
+td {
+    padding: 10px;
+}
+
+.links {
+    text-decoration: none;
+    color: blue;
+}
+
+.links:hover {
+    color: blue;
+    opacity: 0.4;
+    transition: all 0.2s ease;
+}
+
+.no-links {
+    text-decoration: none;
+    color: red;
+    cursor: default;
+}
